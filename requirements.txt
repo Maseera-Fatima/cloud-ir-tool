@@ -1,0 +1,9 @@
+List of Python dependencies.
+pyyaml
+jinja2
+azure-identity
+azure-mgmt-compute
+azure-mgmt-network
+azure-mgmt-resource
+fastapi
+uvicorn
