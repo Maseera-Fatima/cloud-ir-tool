@@ -1,1 +1,8 @@
-
+A simulated alert that would trigger the playbook.
+{
+  "resource_group": "prod-rg",
+  "vm_name": "prod-app-vm-01",
+  "user_email": "attacker@example.com",
+  "source": "AzureSentinel",
+  "type": "unauthorized_access"
+}
