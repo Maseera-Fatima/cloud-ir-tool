@@ -1,10 +1,9 @@
-Contains all Azure-specific functions that map to playbook actions.
 from azure.identity import DefaultAzureCredential
 from azure.mgmt.compute import ComputeManagementClient
 from azure.mgmt.network import NetworkManagementClient
 import os
 
-subscription_id = os.getenv("AZURE_SUBSCRIPTION_ID")
+subscription_id = os.getenv("36dff75d-9e8c-4430-a9cc-eb8fe855b1a5")
 credentials = DefaultAzureCredential()
 compute_client = ComputeManagementClient(credentials, subscription_id)
 network_client = NetworkManagementClient(credentials, subscription_id)
