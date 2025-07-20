@@ -1,4 +1,3 @@
-Your automation playbook in YAML format.
 playbook_id: azure-unauthorized-vm-login
 incident_type: unauthorized_access
 description: Auto-response to Azure VM login from risky IP
