@@ -1,4 +1,3 @@
-Main logic that loads incident & YAML playbook and executes actions.
 import yaml, json
 from jinja2 import Template
 from app.cloud_actions import azure_actions
