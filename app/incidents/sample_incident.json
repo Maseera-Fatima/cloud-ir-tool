@@ -1,7 +1,7 @@
 {
-  "resource_group": "prod-rg",
-  "vm_name": "prod-app-vm-01",
-  "user_email": "attacker@example.com",
+  "resource_group": "IR-Automation-RG",
+  "vm_name": "Ubuntu",
+  "user_email": "fatimamaseera105@gmail.com",
   "source": "AzureSentinel",
   "type": "unauthorized_access"
 }
