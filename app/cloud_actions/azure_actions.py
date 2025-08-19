@@ -3,7 +3,7 @@ from azure.mgmt.compute import ComputeManagementClient
 from azure.mgmt.network import NetworkManagementClient
 import os
 
-subscription_id = os.getenv("36dff75d-9e8c-4430-a9cc-eb8fe855b1a5")
+subscription_id = os.getenv("3cf9b6f1-44fd-4df0-8096-73364685ce39")
 credentials = DefaultAzureCredential()
 compute_client = ComputeManagementClient(credentials, subscription_id)
 network_client = NetworkManagementClient(credentials, subscription_id)
